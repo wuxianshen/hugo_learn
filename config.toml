@@ -1,0 +1,12 @@
+baseURL = "https://gitee.com/taojing_tju/hugo_learn/"
+languageCode = "en-US"
+defaultContentLanguage = "en"
+
+title = "Hugo Learn Documentation"
+theme = "hugo-theme-learn"
+#themesdir = "../.."
+metaDataFormat = "yaml"
+defaultContentLanguageInSubdir= true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
